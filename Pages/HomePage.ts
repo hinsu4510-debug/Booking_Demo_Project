@@ -8,7 +8,7 @@ export class HomePage extends GenericPage {
   private findFlightsBtn = 'input[type="submit"]';
 
   async navigate() {
-    await this.page.goto('/');
+    await this.page.goto('https://blazedemo.com/');
   }
 
   async selectRandomCities() {
