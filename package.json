@@ -1,0 +1,26 @@
+{
+  "name": "booking_demo_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hinsu4510-debug/Booking_Demo_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hinsu4510-debug/Booking_Demo_Project/issues"
+  },
+  "homepage": "https://github.com/hinsu4510-debug/Booking_Demo_Project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0"
+  }
+}
