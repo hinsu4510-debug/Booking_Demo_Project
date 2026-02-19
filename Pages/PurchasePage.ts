@@ -1,4 +1,4 @@
-import { GenericPage } from './GenericPage';
+import { GenericPage } from './WebUtilPage';
 import { generateUserData } from '../Utils/testData';
 
 export class PurchasePage extends GenericPage {

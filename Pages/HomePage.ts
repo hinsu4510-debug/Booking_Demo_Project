@@ -1,4 +1,4 @@
-import { GenericPage } from './GenericPage';
+import { GenericPage } from './WebUtilPage';
 import { getRandomItem } from '../Utils/randomValue';
 import { Locator } from '@playwright/test';
 

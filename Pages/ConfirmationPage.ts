@@ -1,4 +1,4 @@
-import { GenericPage } from './GenericPage';
+import { GenericPage } from './WebUtilPage';
 
 export class ConfirmationPage extends GenericPage {
   private selectorSucessMessage = 'h1';
