@@ -5,7 +5,7 @@ import { PurchasePage } from '../Pages/PurchasePage';
 test('TestCase1 and Testcase2 clubbing', async ({homePage,flightsPage})=>{
     
     
-    await homePage.navigate();
+    await homePage.launchURL();
     const {randomFrom,randomTo} = await homePage.selectRandomCities();
     await homePage.clickFindFlights();
     await expect(await flightsPage.validateHeader(`Flights from ${randomFrom} to ${randomTo}`)).toBeTruthy();
@@ -18,7 +18,7 @@ test('TestCase1 and Testcase2 clubbing', async ({homePage,flightsPage})=>{
 test('TestCase3', async ({homePage,flightsPage,purchasePage,confirmationPage})=>{
     
     
-    await homePage.navigate();
+    await homePage.launchURL();
     const {randomFrom,randomTo} = await homePage.selectRandomCities();
     await homePage.clickFindFlights();
     await flightsPage.selectRandomFlight();

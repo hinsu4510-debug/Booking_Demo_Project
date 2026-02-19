@@ -7,8 +7,8 @@ export class HomePage extends GenericPage {
   private toDropdown = 'select[name="toPort"]';
   private findFlightsBtn = 'input[type="submit"]';
 
-  async navigate() {
-    await this.page.goto('https://blazedemo.com/');
+  async launchURL() {
+    await this.page.goto(`${process.env.APPLICATION_URL}`);
   }
 
   async selectRandomCities() {

@@ -15,11 +15,11 @@ export const test = base.extend<{
 
 }>({
     saveLogs:[async({ },use)=>{
-        console.log('Global before is running...');
+        console.log('Test Execution Started...');
 
         await use();
 
-        console.log('Global afterEach is running...')
+        console.log('Test Execution Completed...')
     },
     { auto: true}],
     homePage: async({ page }, use) =>{
