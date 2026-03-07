@@ -20,7 +20,10 @@ export default defineConfig({
   
   workers: process.env.CI ? 1 : undefined,
   
-  reporter: 'html',
+  reporter: [
+   ['html'],
+   ['allure-playwright']
+  ]
   use: {
     trace: 'on-first-retry',
     headless:false,
