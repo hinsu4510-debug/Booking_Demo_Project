@@ -8,7 +8,7 @@ test('TestCase1', async ({homePage,flightsPage})=>{
     await homePage.launchURL();
     const {randomFrom,randomTo} = await homePage.selectRandomCities();
     await homePage.clickFindFlights();
-    await expect(await flightsPage.validateHeader(`Flights from ${randomFrom} to ${randomTo}`)).toBeTruthy();
+    await expect(await flightsPage.validateHeader(`Flights fom ${randomFrom} to ${randomTo}`)).toBeTruthy();
     
 
 
